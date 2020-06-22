@@ -16,6 +16,9 @@
 #get temp
 vcgencmd measure_temp
 
+#fix screen tear and performance issues
+sudo rm /etc/xdg/autostart/xcompmgr.desktop
+
 #update the pi
 sudo apt update -y & sudo apt upgrade -y
 

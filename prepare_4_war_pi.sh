@@ -96,9 +96,15 @@ sudo apt-get install libsqlite3-dev
 sudo gem install sqlite3 -v '1.3.13' --source 'https://rubygems.org/'
 sudo apt install ruby-dev -y
 
-#insall Impacket
+#install Impacket
 pip install impacket
 
+#Install SEToolkit
+cd /pentest
+git clone https://github.com/trustedsec/social-engineer-toolkit/ setoolkit/
+cd setoolkit
+pip3 install -r requirements.txt
+python setup.py
 
 
 cd /opt

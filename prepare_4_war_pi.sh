@@ -33,6 +33,15 @@ sudo git clone https://github.com/danielmiessler/SecLists.git
 
 sudo mkdir /pentest
 cd /pentest
+
+sudo apt install -y libssl-dev libffi-dev python-dev build-essential -y
+cd /
+cd /pentest
+sudo git clone --recursive https://github.com/byt3bl33d3r/CrackMapExec
+cd CrackMapExec
+sudo python3 setup.py install
+
+
 sudo git clone https://github.com/SecureAuthCorp/impacket.git
 
 sudo mkdir mimikatz

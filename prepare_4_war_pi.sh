@@ -71,6 +71,10 @@ sudo wget https://github.com/bettercap/bettercap/releases/download/v2.27.1/bette
 sudo unzip bettercap_linux_armhf_v2.27.1.zip
 # sudo ./bettercap
 
+#install responder
+cd /pentest
+sudo git clone https://github.com/SpiderLabs/Responder.git
+
 
 #nmap pew pewwin0	
 sudo apt install nmap zenmap -y

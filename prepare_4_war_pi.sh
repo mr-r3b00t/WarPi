@@ -34,6 +34,8 @@ sudo git clone https://github.com/danielmiessler/SecLists.git
 sudo mkdir /pentest
 cd /pentest
 
+sudo pip3 install cryptography --upgrade
+sudo pip3 install asn1crypto --upgrade
 sudo apt install -y libssl-dev libffi-dev python-dev build-essential -y
 cd /
 cd /pentest

@@ -101,14 +101,6 @@ sudo apt install ruby-dev -y
 #install Impacket
 sudo pip install impacket
 
-#Install SEToolkit
-cd /pentest
-sudo git clone https://github.com/trustedsec/social-engineer-toolkit/ setoolkit/
-cd setoolkit
-sudo pip3 install -r requirements.txt
-sudo python setup.py
-
-
 cd /opt
 sudo git clone https://github.com/rapid7/metasploit-framework.git
 cd metasploit-framework

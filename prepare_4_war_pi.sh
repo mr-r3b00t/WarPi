@@ -10,6 +10,8 @@
 #-------------------------------
 # rockyou
 # windows tools e.g. sysinternals etc.
+# add CrackMapExec
+
 
 # GO GO GO!
 
